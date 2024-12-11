@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Pretendard Light';
+            background-color: #ECECEC;
+        }
+        li {
+            list-style-type: none;
+        }
+        #header {
+            background-color: #f6f5ef;
+        }
+        .clear {
+            clear: both;
+        }
+        #logo {
+            float: left;
+            margin: 20px 0 10px 20px;
+        }
+        #top {
+            float: right;
+            margin: 30px 20px 0 0;
+            color: #727272;
+        }
+        #menu {
+            clear: both;
+            height: 40px;
+            background-color: #ffffff;
+            color: #292929;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-size: 20px;
+        }
+        #menu li {
+            display: inline;
+            font-family: 'Pretendart Semibold';
+        }
+        .item {
+            margin: 0 50px 0 50px;
+        }
+        a {
+            text-decoration-line: none;
+            color: #292929;
+        }
+        a:hover {
+            color: #FFF32B;
+        }
+        img {
+            border-radius: 20px;
+            padding: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #main_contents h3{
+            font-size: 27px;
+            color: #292929;
+            padding: 40px;
+            text-align: center;
+        }
+
+        table{
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding-bottom: 50PX;
+           
+
+        }
+        tr{
+            vertical-align: top;
+        }
+        td{
+            padding: 14px;
+            text-align: left;
+            font-size: 14px;
+            margin: 0 auto;
+            line-height: 1.5;
+
+        }
+
+        footer{
+            width: 100%;
+            height: 150px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        #footer_box{
+            height: 150px;
+            margin: 0 auto;
+            
+        }
+        #footer_logo{
+            float: left;
+            margin: 60px 0 0 30px;
+            padding-top: 10px;
+        }
+        #address{
+            float: right;
+            margin: 50px 30px 0 0;
+            color: #676767;
+            font-size: smaller;
+            line-height: 1.5;
+        }
+        #bold{
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        @media (max-width: 768px) {
+            
+
+            #main_contents p {
+                font-size: 14px;
+            }
+
+            #menu li {
+                font-size: 17px;
+                padding: 2px;
+            }
+
+        #logo {
+                float: none;
+                text-align: center;
+                margin: 10px auto;
+            }
+            #top {
+                float: none;
+                text-align: center;
+                margin: 10px auto;
+            }
+            #menu {
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+            .item {
+                margin: 0 20px;
+            }
+            footer {
+                height: auto;
+                text-align: center;
+            }
+            #footer_logo {
+                float: none;
+                margin: 20px auto;
+            }
+            #address {
+                float: none;
+                margin: 10px auto;
+            }
+            td{
+                width: 100px;
+                display: inline;
+            }
+            td p {
+                font-size: 14px;
+                width: 94%;
+                padding-left: 10px;
+            }
+            table p {
+                font-size: 14px;
+                width: 100%;
+            }
+            table img{
+                width: 350px;
+                height: 400px;
+            }
+            table{
+                padding-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+            <div id="logo">
+                <a href="index.html"><img src="logo.png" width="240"></a> 
+            </div>
+    
+            <div id="top">
+                올리브 오일, 더 알고 더 즐기세요!
+            </div>
+    
+    </header>
+    
+    <nav> 
+        <ul id="menu">
+            <li class="item"><a href="page1.html">역사</a></li>
+            <li></li>
+            <li class="item"><a href="page2.html">종류</a></li>
+            <li></li>
+            <li class="item"><a href="page3.html">효능</a></li>
+            <li></li>
+            <li class="item"><a href="page4.html">추천상품</a></li>
+            <li></li>
+            <li class="item"><a href="page5.html">보관방법</a></li>
+
+        </ul>
+    </nav>
+
+    <section>
+        <div id="main_contents">
+            <h3>올리브 오일 인기상품 추천</h3>
+        </div>
+
+        <table>
+            <tr>
+            <td>
+              <img src="oil1.png" width="300">
+             <br><span id="bold">콜라비타 엑스트라 버진 올리브오일</span>
+             <br><br>특징: 이탈리아의 전통적인 방식으로 제조된 콜라비타 엑스트라 버진 올리브오일은 풍부한 향과 맛을 자랑합니다.
+             <br>효능: 항산화 물질이 풍부하여 심장 건강과 피부 개선에 도움을 줍니다.
+            </td>
+            <td>
+                <img src="oil2.png" width="300">
+                <br><span id="bold">라투랑젤 엑스트라 버진 올리브오일</span>
+                <br><br>특징: 프랑스에서 생산된 이 올리브오일은 깊고 복합적인 맛을 가지고 있습니다.
+                <br>효능: 항염증 효과가 뛰어나며, 요리의 풍미를 한층 더해줍니다.
+              </td>
+              <td>
+                <img src="oil3.png" width="300" height="353">
+                <br><span id="bold">바쏘 엑스트라 버진 올리브오일</span>
+                <br><br>특징: 이탈리아에서 생산된 바쏘 엑스트라 버진 올리브오일은 저렴한 가격대에도 불구하고 고품질을 유지하여 가성비가 뛰어납니다.
+                <br>효능: 다양한 요리에 활용 가능하며, 심혈관 건강을 개선하는 데 도움을 줍니다.
+              </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+            <td>
+              <img src="oil4.png" width="300"height="353">
+             <br><span id="bold">필리포 베리오 엑스트라 버진 올리브오일</span>
+             <br><br>특징: 오랜 전통을 자랑하는 필리포 베리오의 올리브오일은 균형 잡힌 맛을 제공합니다.
+             <br>효능: 다용도로 사용 가능하며, 항산화 물질이 풍부합니다.
+            </td>
+            <td>
+                <img src="oil5.png" width="300" height="353">
+                <br><span id="bold">모니니 유기농 엑스트라 버진 올리브오일</span>
+                <br><br>특징: 이탈리아에서 생산된 고품질의 유기농 올리브오일로, 최고 품질의 유기농 올리브를 사용하여 전통적인 방법으로 제조됩니다. 이 오일은 풍부한 맛과 다양한 건강상의 이점을 제공합니다.
+                <br>효능: 항염증 효과가 뛰어나며, 뇌 건강에 도움을 줍니다.
+              </td>
+              <td>
+                <img src="oil6.png" width="300" height="353">
+                <br><span id="bold">르반테 엑스트라 버진 올리브오일</span>
+                <br><br>특징: 이탈리아 푸글리아 지역에서 수확된 올리브를 사용하여 진하고 풍부한 맛을 가지고 있습니다.
+                <br>효능: 항산화 효과가 뛰어나며, 폴리페놀과 같은 항산화 물질이 풍부하여 염증을 줄이고, 노화를 방지하는 데 도움을 줍니다.
+              </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+            <td>
+              <img src="oil7.png" width="300" height="353">
+             <br><span id="bold">파르타나 엑스트라 버진 올리브오일</span>
+             <br><br>특징: 이탈리아 시칠리아 지역에서 생산된 파르타나의 올리브오일은 신선한 맛을 자랑합니다.
+             <br>효능: 염증을 줄이고 심장 건강을 개선하는 데 도움을 줍니다.
+            </td>
+            <td>
+                <img src="oil8.png" width="300" height="353">
+                <br><span id="bold">캘리포니아 올리브 랜치 엑스트라 버진 올리브오일</span>
+                <br><br>특징: 미국 캘리포니아에서 생산된 이 올리브오일은 지속 가능한 방식으로 생산됩니다.
+                <br>효능: 다용도로 사용 가능하며, 건강한 지방산이 풍부합니다.
+              </td>
+              <td>
+                <img src="oil9.png" width="300" height="353">
+                <br><span id="bold">루치니 이탈리아 엑스트라 버진 올리브오일</span>
+                <br><br>특징: 프리미엄 올리브로 만들어진 루치니 이탈리아의 올리브오일은 부드럽고 섬세한 맛을 자랑합니다.
+                <br>효능: 요리의 풍미를 더해주며, 항산화 효과가 뛰어납니다.
+              </td>
+            </tr>
+        </table>
+
+    </section>
+        
+    
+    <footer>
+            <div id="footer_box">
+                <div id="footer_logo">
+                    <img src="logo.png" width="170">
+                </div>
+                <ul id="address">
+                    <li>서울시 송파구 방이동 1234  ∣  우:123-1234</li>
+                    <li>TEL:031-123-1234  ∣  EMAIL:soyuni05@naver.com</li>
+                    <li>COPYRIGHT © OLIVEPEDIA ALL RIGHT RESERVED</li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>

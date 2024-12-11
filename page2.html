@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Pretendard Light';
+            background-color: #ECECEC;
+        }
+        li {
+            list-style-type: none;
+        }
+        #header {
+            background-color: #f6f5ef;
+        }
+        .clear {
+            clear: both;
+        }
+        #logo {
+            float: left;
+            margin: 20px 0 10px 20px;
+        }
+        #top {
+            float: right;
+            margin: 30px 20px 0 0;
+            color: #727272;
+        }
+        #menu {
+            clear: both;
+            height: 40px;
+            background-color: #ffffff;
+            color: #292929;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-size: 20px;
+        }
+        #menu li {
+            display: inline;
+            font-family: 'Pretendart Semibold';
+        }
+        .item {
+            margin: 0 50px 0 50px;
+        }
+        a {
+            text-decoration-line: none;
+            color: #292929;
+        }
+        a:hover {
+            color: #FFF32B;
+        }
+        img {
+            border-radius: 20px;
+            padding: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+        #main_contents p {
+            padding: 20px;
+            text-align: left; 
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+        #main_contents h3 {
+            font-size: 27px;
+            color: #292929;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .centered {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               text-align: left;
+                     }
+
+        .centered img {
+                margin-right: 20px;  
+                       }
+        table {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-spacing: 10px; 
+        }
+        td {
+            text-align: left; 
+            vertical-align: top; 
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 10px;
+        }
+        h4{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        #up {
+            text-align: center;
+            font-size: 16px;
+            padding-top: 10px;
+        }
+        footer {
+            width: 100%;
+            height: 150px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        #footer_box {
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 60px 0 0 30px;
+            padding-top: 10px;
+        }
+        #address {
+            float: right;
+            margin: 50px 30px 0 0;
+            color: #676767;
+            font-size: smaller;
+            line-height: 1.5;
+        }
+        #center{display: flex;
+               align-items: center;
+               justify-content: center;
+               text-align: left;
+
+        }
+
+        #up {
+                font-size: 16px; 
+                line-height: 1.5;
+                text-align: center;
+                padding: 20px;
+                display: block;
+            }
+
+        @media (max-width: 768px) {
+
+            #menu li {
+                font-size: 17px;
+                padding: 2px;
+            }
+            #up {
+                font-size: 14px; 
+                text-align: left; 
+            }
+            .centered{
+                display: inline;
+                font-size: 14px; 
+            }
+            #logo {
+                float: none;
+                text-align: center;
+                margin: 10px auto;
+            }
+            #top {
+                float: none;
+                text-align: center;
+                margin: 10px auto;
+            }
+            #menu {
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+            .item {
+                margin: 0 20px;
+            }
+            footer {
+                height: auto;
+                text-align: center;
+            }
+            #footer_logo {
+                float: none;
+                margin: 20px auto;
+            }
+            #address {
+                float: none;
+                margin: 10px auto;
+            }
+            .inline{
+                display: inline;
+            }
+            table {
+                display: block;
+                width: 100%;
+            }
+            td {
+                display: block;
+                width: 100%;
+            }
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="logo.png" width="240"></a> 
+        </div>
+        <div id="top">
+            올리브 오일, 더 알고 더 즐기세요!
+        </div>
+    </header>
+
+    <nav> 
+        <ul id="menu">
+            <li class="item"><a href="page1.html">역사</a></li>
+            <li></li>
+            <li class="item"><a href="page2.html">종류</a></li>
+            <li></li>
+            <li class="item"><a href="page3.html">효능</a></li>
+            <li></li>
+            <li class="item"><a href="page4.html">추천상품</a></li>
+            <li></li>
+            <li class="item"><a href="page5.html">보관방법</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="main_contents">
+            <h3>올리브 오일의 종류</h3>
+        </div>
+
+        <table>
+            <tr>
+                <td class="centered">
+                    <img src="type1.jpg" height="170px">
+                    <SPAN id="up">먼저 올리브오일 종류는 크게 엑스트라 버진 / 버진 / 퓨어 / 포마스로 구분됩니다.<br>
+                        이를 구분하는 요소로는 '착유 순서'와 '착유 방식'이 있는데요. 차근차근 알아볼까요?<br></SPAN>
+                </td>
+            </tr>
+        </table>
+
+        <table class="inline">
+            <tr>
+                <td>
+                    <h4>엑스트라 버진 올리브 오일</h4>
+                    <img src="type2.jpg" height="200px">
+                   
+                        • 신선한 올리브를 압착해 처음 짜낸 오일 <br> • 산도가 0.8% 미만으로 매우 낮음<BR> • 불포화지방산, 토코페롤, 폴리페놀 등 이로운 성분이 풍부
+                    
+                </td>
+                <td>
+                    <h4>버진 올리브 오일</h4>
+                    <img src="type3.jpg" height="200px">
+                    
+                        • 엑스트라 버진 오일을 짜고 난 후 두 번째로 압착한 오일<br>  • 엑스트라 버진 올리브오일에 비해 영양분 함량은 다소 떨어짐 <BR>
+                            • 산도 역시 2% 정도로 엑스트라 버진 올리브 오일보다 높음
+                   
+                </td>
+                <td>
+                    <h4>퓨어 올리브 오일</h4>
+                    <img src="type4.png" height="200px">
+                    
+                        • 버진 올리브오일과 정제 올리브오일을 섞어 만든 혼합 올리브 오일<br>  • 엑스트라 버진 올리브오일보다는 품질이 낮고, 폴리페놀 함량이 상대적으로 적을 수 있음. <BR>
+                            • 1% 이하의 산도 (가열 요리용 정제 오일과 동일)
+                   
+                </td>
+                <td>
+                    <h4>포마스 올리브 오일</h4>
+                    <img src="type5.png" height="200px">
+                    
+                        • 오일을 짜내고 남은 찌꺼기를 화학적으로 정제해 얻은 정제 올리브 오일<br>  • 가격이 저렴하여 주로 고온 요리나 상업적인 요리에 사용됨 <BR>
+                            • 건강에 유익한 성분이 적고, 향미가 부족함
+                    
+                </td>
+            </tr>
+        </table>
+   
+
+        <table>
+            <tr>
+                <td>
+                    <h4>많아도 너무 많은 올리브 종류</h4>
+                         <span id="center"><p>오늘날 올리브는 전세계 60여 개국에서 재배라고 있고 그 종류는 2,000여종에 달합니다. <br>
+                            다양한 종만큼이나 다양한 풍미를 지닌 올리브 열매는 
+                            그 모양과 다루는 방법까지도 제각각인데다가 종류에 따라 성분도 달라져요.</p></span>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <h4>피쿠알 Picual</h4>
+                    <p>
+                        스페인 하엔 지방에서 주로 생산되며, 전 세계 올리브 오일의 약 1/3을 차지합니다. 이 품종은 지방 함량이 20~27%로 높아 올리브 오일 생산에 적합합니다.
+                    </p>
+                </td>
+                <td>
+                    <h4>아르베키나 Arbequina</h4>
+                    <p>
+                        피쿠알 종 다음으로 올리브 오일 생산에 많이 사용되는 품종으로, 작고 일정한 형태와 부드러운 풍미가 특징입니다. 주로 유럽에서 재배되며, 미국 캘리포니아, 아르헨티나, 칠레, 호주 등에서도 생산됩니다.
+                    </p>
+                </td>
+                <td>
+                    <h4>칼라마타 Kalamata</h4>
+                    <p>
+                        그리스 남부에서 주로 재배되며, 제대로 익으면 짙은 보라색이나 검은색으로 변합니다. 과즙이 풍부하고 수분이 많으며 지방량이 적은 특징이 있습니다. 완전히 익었을 때 수확하며, 연두빛일 때는 사용되지 않는 품종입니다.
+                    </p>
+                </td>
+                <td>
+                    <h4>피콜린 Picholine</h4>
+                    <p>
+                        한 과육에 스파이시하고 고소한 맛을 지닌 올리브로, 프랑스에서 가장 일반적으로 통용되는 종이자 식전주와 곁들이기에 가장 이상적인 품종입니다. 
+                        부드러우면서도 과육이 풍부한 것이 특징이라고 해요.
+                    </p>
+                </td>
+            </tr>
+        </table>
+ </div>
+    </section>
+
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="logo.png" width="170">
+            </div>
+            <ul id="address">
+                <li>서울시 송파구 방이동 1234  ∣  우:123-1234</li>
+                <li>TEL:031-123-1234  ∣  EMAIL:soyuni05@naver.com</li>
+                <li>COPYRIGHT © OLIVEPEDIA ALL RIGHT RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
